@@ -1,0 +1,200 @@
+﻿#ts_tabmenu {
+	font-size: .75em; /* set the font size */
+	padding: 2px 0px 0px 2px; /* set the padding */
+}
+#ts_tabmenu ul {
+	line-height: 1em; /* setting the line height now so we don't have any headaches*/
+	margin: 0px; /* let's keep the margin set to 0 for the same reasons as above*/
+	list-style-type: none; /* we remove the UL's default disc bullets */
+	float: left; /* we float the list to the left like we will all the elements inside*/
+	padding: 0px 0px 0px 5px; /* give it a left padding of 5px to counter the effect of margin -5px below */
+}
+#ts_tabmenu ul li {
+	float: left; /* floatin' left */
+}
+#ts_tabmenu ul li a {
+	text-decoration: none; /* remove the default underline off the anchor text */
+	display: block; /* we display this text as block so that we can apply padding/margin without problems */
+	float: left; /* floatin' left, to make the menu horizontal */
+	padding: 0px 0px 0px 10px;  /* we give it a left padding of 10px to show the first 10 pixels of the tabs image. you can also use padding-left: 10px; */
+	background: url('/Images/tabs.gif') no-repeat left top;  /* we link to the tabs image, no tiling, showing the top left part of it */
+	margin-left: -5px;  /* this is important for the overlapping part - we are overlapping the tabs by 5 px */
+	z-index: 0; /* keep it on layer 0 (default) */
+	position: relative;  /* very important as this enables the z-index to work for us and keeps the tabs where they should be */
+	color: #666666;  /* color of the tab text */
+
+	padding-left:10px;
+
+}
+.autogeneral {
+	font-weight: normal;   /* remove the bold effect */
+	display: block;   /* display the strong element as a block so we can pad it, etc. */
+	float: left;   /* float it left as well */
+	background: url('/Images/tabs.gif') no-repeat right top;  /* now we show the right part of the tab and we complete the "puzzle" */
+	padding: 6px 37px 7px 36px;  /* CHANGE THIS TO POSITION TEXT WITHIN TABS TO MAKE TABS LONGER */
+	cursor: pointer;  /* this makes the browser show the "hand" cursor when hovering over the tab */
+	font-family: verdana; 
+	font-size: 10px;
+	color: #4D4D4D;
+	font-weight: bold;
+	text-align: center;
+}
+.sportcompact {
+	font-weight: normal;   /* remove the bold effect */
+	display: block;   /* display the strong element as a block so we can pad it, etc. */
+	float: left;   /* float it left as well */
+	background: url('/Images/tabs.gif') no-repeat right top;  /* now we show the right part of the tab and we complete the "puzzle" */
+	padding: 6px 22px 7px 21.7px;  /* CHANGE THIS TO POSITION TEXT WITHIN TABS TO MAKE TABS LONGER */
+	cursor: pointer;  /* this makes the browser show the "hand" cursor when hovering over the tab */
+	font-family: verdana; 
+	font-size: 10px;
+	color: #4D4D4D;
+	font-weight: bold;
+	text-align: center;
+}
+.sportcompactEU {
+	font-weight: normal;   /* remove the bold effect */
+	display: block;   /* display the strong element as a block so we can pad it, etc. */
+	float: left;   /* float it left as well */
+	background: url('/Images/tabs.gif') no-repeat right top;  /* now we show the right part of the tab and we complete the "puzzle" */
+	padding: 6px 70px 7px 70px;  /* CHANGE THIS TO POSITION TEXT WITHIN TABS TO MAKE TABS LONGER */
+	cursor: pointer;  /* this makes the browser show the "hand" cursor when hovering over the tab */
+	font-family: verdana; 
+	font-size: 10px;
+	color: #4D4D4D;
+	font-weight: bold;
+	text-align: center;
+}
+.sportstreet {
+	font-weight: normal;   /* remove the bold effect */
+	display: block;   /* display the strong element as a block so we can pad it, etc. */
+	float: left;   /* float it left as well */
+	background: url('/Images/tabs.gif') no-repeat right top;  /* now we show the right part of the tab and we complete the "puzzle" */
+	padding: 6px 69px 7px 69.5px;  /* CHANGE THIS TO POSITION TEXT WITHIN TABS TO MAKE TABS LONGER */
+	cursor: pointer;  /* this makes the browser show the "hand" cursor when hovering over the tab */
+	font-family: verdana; 
+	font-size: 10px;
+	color: #4D4D4D;
+	font-weight: bold;
+	text-align: center;
+}
+.sportoffroad {
+	font-weight: normal;   /* remove the bold effect */
+	display: block;   /* display the strong element as a block so we can pad it, etc. */
+	float: left;   /* float it left as well */
+	background: url('/Images/tabs.gif') no-repeat right top;  /* now we show the right part of the tab and we complete the "puzzle" */
+	padding: 6px 71px 7px 72px;  /* CHANGE THIS TO POSITION TEXT WITHIN TABS TO MAKE TABS LONGER */
+	cursor: pointer;  /* this makes the browser show the "hand" cursor when hovering over the tab */
+	font-family: verdana; 
+	font-size: 10px;
+	color: #4D4D4D;
+	font-weight: bold;
+	text-align: center;
+}
+.sportatv {
+	font-weight: normal;   /* remove the bold effect */
+	display: block;   /* display the strong element as a block so we can pad it, etc. */
+	float: left;   /* float it left as well */
+	background: url('/Images/tabs.gif') no-repeat right top;  /* now we show the right part of the tab and we complete the "puzzle" */
+	padding: 6px 31px 7px 31px;  /* CHANGE THIS TO POSITION TEXT WITHIN TABS TO MAKE TABS LONGER */
+	cursor: pointer;  /* this makes the browser show the "hand" cursor when hovering over the tab */
+	font-family: verdana; 
+	font-size: 10px;
+	color: #4D4D4D;
+	font-weight: bold;
+	text-align: center;
+}
+.sportwatersnow {
+	font-weight: normal;   /* remove the bold effect */
+	display: block;   /* display the strong element as a block so we can pad it, etc. */
+	float: left;   /* float it left as well */
+	background: url('/Images/tabs.gif') no-repeat right top;  /* now we show the right part of the tab and we complete the "puzzle" */
+	padding: 6px 50px 7px 50px;  /* CHANGE THIS TO POSITION TEXT WITHIN TABS TO MAKE TABS LONGER */
+	cursor: pointer;  /* this makes the browser show the "hand" cursor when hovering over the tab */
+	font-family: verdana; 
+	font-size: 10px;
+	color: #4D4D4D;
+	font-weight: bold;
+	text-align: center;
+}
+.sportharley {
+	font-weight: normal;   /* remove the bold effect */
+	display: block;   /* display the strong element as a block so we can pad it, etc. */
+	float: left;   /* float it left as well */
+	background: url('/Images/tabs.gif') no-repeat right top;  /* now we show the right part of the tab and we complete the "puzzle" */
+	padding: 6px 60px 7px 60px;  /* CHANGE THIS TO POSITION TEXT WITHIN TABS TO MAKE TABS LONGER */
+	cursor: pointer;  /* this makes the browser show the "hand" cursor when hovering over the tab */
+	font-family: verdana; 
+	font-size: 10px;
+	color: #4D4D4D;
+	font-weight: bold;
+	text-align: center;
+}
+.srp {
+	font-weight: normal;   /* remove the bold effect */
+	display: block;   /* display the strong element as a block so we can pad it, etc. */
+	float: left;   /* float it left as well */
+	background: url('/Images/tabs.gif') no-repeat right top;  /* now we show the right part of the tab and we complete the "puzzle" */
+	padding: 6px 31px 7px 31px;  /* CHANGE THIS TO POSITION TEXT WITHIN TABS TO MAKE TABS LONGER */
+	cursor: pointer;  /* this makes the browser show the "hand" cursor when hovering over the tab */
+	font-family: verdana; 
+	font-size: 10px;
+	color: #4D4D4D;
+	font-weight: bold;
+	text-align: center;
+}
+.srppro {
+	font-weight: normal;   /* remove the bold effect */
+	display: block;   /* display the strong element as a block so we can pad it, etc. */
+	float: left;   /* float it left as well */
+	background: url('/Images/tabs.gif') no-repeat right top;  /* now we show the right part of the tab and we complete the "puzzle" */
+	padding: 6px 60px 7px 60px;  /* CHANGE THIS TO POSITION TEXT WITHIN TABS TO MAKE TABS LONGER */
+	cursor: pointer;  /* this makes the browser show the "hand" cursor when hovering over the tab */
+	font-family: verdana; 
+	font-size: 10px;
+	color: #4D4D4D;
+	font-weight: bold;
+	text-align: center;
+}
+#ts_tabmenu ul li a:hover {
+	position: relative; /* again, keep things relative */
+	z-index: 5; /* we show this tab over all other tabs in the menu, which would be on layer 0, thus overlapping occurs */
+	background: url('/Images/tabs.gif') no-repeat left bottom;  /* now we show the bottom part of the tabs image, the "hover" instance */
+	color: #000000;   /* we color the hovered tab's text black */
+}
+#ts_tabmenu ul li a:hover strong {
+	background-image: url('/Images/tabs.gif') no-repeat;  
+	position: relative; /* keep it relative */
+	z-index: 5; /* show this on layer 5 as well */
+	background-position: right bottom; /* we show the right bottom part of the tabs image (the hover instance) */
+		font-family: verdana; 
+	font-size: 10px;
+    text-decoration: underline;
+	color: #F26521;
+	font-weight: bold;
+	text-align: center;
+}
+#tsmenu1 #li_tsmenu1 a, #tsmenu2 #li_tsmenu2 a, 
+#tsmenu3 #li_tsmenu3 a, #tsmenu4 #li_tsmenu4 a, 
+#tsmenu5 #li_tsmenu5 a, #tsmenu6 #li_tsmenu6 a, 
+#tsmenu7 #li_tsmenu7 a, #tsmenu8 #li_tsmenu8 a {
+	position: relative;
+	z-index: 5; 
+	background: url('/Images/tabs.gif') no-repeat left bottom;  
+    
+}
+#tsmenu1 #li_tsmenu1 a strong, #tsmenu2 #li_tsmenu2 a strong, 
+#tsmenu3 #li_tsmenu3 a strong, #tsmenu4 #li_tsmenu4 a strong, 
+#tsmenu5 #li_tsmenu5 a strong, #tsmenu6 #li_tsmenu6 a strong, 
+#tsmenu7 #li_tsmenu7 a strong, #tsmenu8 #li_tsmenu8 a strong {	
+	background-image: url('/Images/tabs.gif') no-repeat;  
+	position: relative; 
+	z-index: 5; 
+	background-position: right bottom; 
+	font-family: verdana; 
+	font-size: 10px;
+    text-decoration: underline;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}

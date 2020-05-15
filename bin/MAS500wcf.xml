@@ -1,0 +1,252 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MAS500wcf
+</name>
+</assembly>
+<members>
+<member name="T:MAS500wcf.MASDataSet.spwcWSOnOrderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSLeadTimeKitDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSLeadTimeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSItemPriceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSItemBOMCompDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSItemBOMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSOnHandDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spimIMSItemGetItemPriceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcAddCredit_ToMAS500DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcAddCustAddress_ToMAS500DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcGetCustKeyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcFindCustCrediCardsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSOnOrderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSLeadTimeKitRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSLeadTimeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSItemPriceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSItemBOMCompRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSItemBOMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSOnHandRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spimIMSItemGetItemPriceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcAddCredit_ToMAS500Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcAddCustAddress_ToMAS500Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcGetCustKeyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcFindCustCrediCardsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSOnOrderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSLeadTimeKitRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSLeadTimeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSItemPriceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSItemBOMCompRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSItemBOMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcWSOnHandRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spimIMSItemGetItemPriceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcAddCredit_ToMAS500RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcAddCustAddress_ToMAS500RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcGetCustKeyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet.spwcFindCustCrediCardsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MAS500wcf.MASDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spwcWSOnOrderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spwcWSLeadTimeKitTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spwcWSLeadTimeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spwcWSItemPriceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spwcWSItemBOMCompTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spwcWSItemBOMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spwcWSOnHandTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spimIMSItemGetItemPriceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spwcAddCredit_ToMAS500TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spwcAddCustAddress_ToMAS500TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spwcGetCustKeyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.spwcFindCustCrediCardsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:MAS500wcf.MASDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MAS500wcf.MASDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:MAS500wcf.MASDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MAS500wcf.MASDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:MAS500wcf.MASDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MAS500wcf.MASDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:MAS500wcf.MASDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:MAS500wcf.MASDataSetTableAdapters.TableAdapterManager.UpdateAll(MAS500wcf.MASDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:MAS500wcf.MASDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:MAS500wcf.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MAS500wcf.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:MAS500wcf.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

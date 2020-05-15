@@ -1,0 +1,33 @@
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\bin\JEWebsite.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\bin\JEWebsite.XmlSerializers.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\bin\JEWebsite.pdb
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\bin\JEWebsite.xml
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\bin\Interop.MSXML2.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\obj\Release\ResolveAssemblyReference.cache
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\obj\Release\Interop.MSXML2.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\obj\Release\JEWeb_Solution.vbproj.ResolveComReference.cache
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\obj\Release\JEWebsite.Resources.resources
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\obj\Release\JEWeb_Solution.vbproj.GenerateResource.Cache
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\obj\Release\JEWebsite.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\obj\Release\JEWebsite.xml
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\obj\Release\JEWebsite.pdb
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\obj\Release\JEWebsite.XmlSerializers.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\bin\JEWebsite.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\bin\JEWebsite.XmlSerializers.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\bin\JEWebsite.pdb
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\bin\JEWebsite.xml
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\bin\Interop.MSXML2.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\obj\Release\ResolveAssemblyReference.cache
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\obj\Release\Interop.MSXML2.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\obj\Release\JEWeb_Solution.vbproj.ResolveComReference.cache
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\obj\Release\JEWebsite.Resources.resources
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\obj\Release\JEWeb_Solution.vbproj.GenerateResource.Cache
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\obj\Release\JEWebsite.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\obj\Release\JEWebsite.xml
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\obj\Release\JEWebsite.pdb
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\obj\Release\JEWebsite.XmlSerializers.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\bin\MAS500wcf.dll
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\bin\MAS500wcf.pdb
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution - Copy\JEWeb_Solution\bin\MAS500wcf.xml
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\bin\MAS500wcf.pdb
+C:\WisecoDevelopment\DotNetWeb\JEWeb_Solution\JEWeb_Solution\bin\MAS500wcf.xml

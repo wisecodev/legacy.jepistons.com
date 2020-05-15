@@ -1,0 +1,4587 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+JEWebsite
+</name>
+</assembly>
+<members>
+<member name="M:JEWebsite.JECustomerSite.BusinessClasses.ShoppingCart.UpdateCartItemPriceFromERP(System.Int32,System.String,System.Decimal)">
+	<summary>
+ Update the Cart Item's price from the database (by way of FTP / SSIS package process) 
+ </summary>
+	<param name="cartID"></param>
+	<param name="itemID"></param>
+	<param name="itemSingleUnitPrice"></param>
+	<remarks></remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.frmPinSearch">
+	<summary>
+frmPinSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.pnlSearchPins">
+	<summary>
+pnlSearchPins control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.txtPinDiameter">
+	<summary>
+txtPinDiameter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.radPinDiaUnitIn">
+	<summary>
+radPinDiaUnitIn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.radPinDiaUnitMM">
+	<summary>
+radPinDiaUnitMM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.btnSearchPins">
+	<summary>
+btnSearchPins control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.pnlPinSearch">
+	<summary>
+pnlPinSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.repPinGrid">
+	<summary>
+repPinGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.lblRetainingClipError">
+	<summary>
+lblRetainingClipError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.pnlRetainingClipSearch">
+	<summary>
+pnlRetainingClipSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WristPinSearch.repRetainingClipGrid">
+	<summary>
+repRetainingClipGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JELeftsRights.frmLeftRight">
+	<summary>
+frmLeftRight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ProductDetail.litDescription">
+	<summary>
+litDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ProductDetail.litKeywords">
+	<summary>
+litKeywords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ProductDetail.lblGridError">
+	<summary>
+lblGridError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ProductDetail.pnlInvalidProduct">
+	<summary>
+pnlInvalidProduct control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ProductDetail.MyList">
+	<summary>
+MyList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ProductDetail.pnlRelatedItems">
+	<summary>
+pnlRelatedItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ProductDetail.MyRelatedDataList">
+	<summary>
+MyRelatedDataList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.HarleyDavidson.YamahaCatalogLinks">
+	<summary>
+YamahaCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.MyAccountDetail">
+	<summary>
+MyAccountDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.txtBillFirstName">
+	<summary>
+txtBillFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.rfvBillFirstName">
+	<summary>
+rfvBillFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.txtBillLastName">
+	<summary>
+txtBillLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.rfvBillLastName">
+	<summary>
+rfvBillLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.txtBillAddr1">
+	<summary>
+txtBillAddr1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.rfvBillAddr1">
+	<summary>
+rfvBillAddr1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.txtBillAddr2">
+	<summary>
+txtBillAddr2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.txtBillCity">
+	<summary>
+txtBillCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.rfvBillCity">
+	<summary>
+rfvBillCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.ddlBillCountryID">
+	<summary>
+ddlBillCountryID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.cmbBillStateProvince">
+	<summary>
+cmbBillStateProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.rfvBillStateProvince">
+	<summary>
+rfvBillStateProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.txtBillPostalCode">
+	<summary>
+txtBillPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.rfvBillPostalCode">
+	<summary>
+rfvBillPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.txtBillEmail">
+	<summary>
+txtBillEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.rfvBillEmail">
+	<summary>
+rfvBillEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.txtBillPhone">
+	<summary>
+txtBillPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.rfvBillPhone">
+	<summary>
+rfvBillPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.plcHiddenCustomerInfo">
+	<summary>
+plcHiddenCustomerInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.ddlCompanyID">
+	<summary>
+ddlCompanyID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.txtERPCustID">
+	<summary>
+txtERPCustID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.btnImportERP">
+	<summary>
+btnImportERP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.txtMASCustID">
+	<summary>
+txtMASCustID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.chkApprovedDealer">
+	<summary>
+chkApprovedDealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountDetail.btnSaveDetails">
+	<summary>
+btnSaveDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.Dyno.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OnroadCycle.ApriliaCatalogLinks">
+	<summary>
+ApriliaCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OnroadCycle.DucatiCatalogLinks">
+	<summary>
+DucatiCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OnroadCycle.HondaCatalogLinks">
+	<summary>
+HondaCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OnroadCycle.KawasakiCatalogLinks">
+	<summary>
+KawasakiCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OnroadCycle.SuzukiCatalogLinks">
+	<summary>
+SuzukiCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OnroadCycle.TriumphCatalogLinks">
+	<summary>
+TriumphCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OnroadCycle.VictoryCatalogLinks">
+	<summary>
+VictoryCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OnroadCycle.YamahaCatalogLinks">
+	<summary>
+YamahaCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JEMaster.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JEMaster.ContentPlaceHolderHeaderImage">
+	<summary>
+ContentPlaceHolderHeaderImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JEMaster.ContentPlaceHolderBread">
+	<summary>
+ContentPlaceHolderBread control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JEMaster.ContentPlaceHolder">
+	<summary>
+ContentPlaceHolder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JEMaster.ContentPlaceHolderFooterTop">
+	<summary>
+ContentPlaceHolderFooterTop control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.CheckoutBillShipForm">
+	<summary>
+CheckoutBillShipForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.rblShippingOptions">
+	<summary>
+rblShippingOptions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.rfvShippingOptions">
+	<summary>
+rfvShippingOptions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.chkPreferredCarrier">
+	<summary>
+chkPreferredCarrier control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.chkCollectAccount">
+	<summary>
+chkCollectAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.chkOvernightSat">
+	<summary>
+chkOvernightSat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.chkOvernightAM">
+	<summary>
+chkOvernightAM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.chkShipComplete">
+	<summary>
+chkShipComplete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.pnlIntlShipping">
+	<summary>
+pnlIntlShipping control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.MyList">
+	<summary>
+MyList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.lblEstShipDate">
+	<summary>
+lblEstShipDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.btnContinueCheckout">
+	<summary>
+btnContinueCheckout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutShippingOptions.CheckoutCode">
+	<summary>
+CheckoutCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.SignIn.frmSignIn">
+	<summary>
+frmSignIn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.SignIn.userid">
+	<summary>
+userid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.SignIn.pnlSearch">
+	<summary>
+pnlSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.SignIn.password">
+	<summary>
+password control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.SignIn.LoginBtn">
+	<summary>
+LoginBtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.SignIn.Message">
+	<summary>
+Message control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.SignIn.CreateAccount">
+	<summary>
+CreateAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.SignIn.NewAccountMessage">
+	<summary>
+NewAccountMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.AddtoCart2.Buy">
+	<summary>
+Buy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.AddtoCart2.ItemIDText">
+	<summary>
+ItemIDText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.AddtoCart2.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ATV.ArcticCatCatalogLinks">
+	<summary>
+ArcticCatCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ATV.BombardierCatalogLinks">
+	<summary>
+BombardierCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ATV.HondaCatalogLinks">
+	<summary>
+HondaCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ATV.JohnDeereCatalogLinks">
+	<summary>
+JohnDeereCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ATV.KawasakiCatalogLinks">
+	<summary>
+KawasakiCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ATV.KTMCatalogLinks">
+	<summary>
+KTMCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ATV.PolarisCatalogLinks">
+	<summary>
+PolarisCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ATV.SuzukiCatalogLinks">
+	<summary>
+SuzukiCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ATV.YamahaCatalogLinks">
+	<summary>
+YamahaCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OffroadCycle.GasGasCatalogLinks">
+	<summary>
+GasGasCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OffroadCycle.CatalogLinks2">
+	<summary>
+CatalogLinks2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OffroadCycle.HusabergCatalogLinks">
+	<summary>
+HusabergCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OffroadCycle.HusqvarnaCatalogLinks">
+	<summary>
+HusqvarnaCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OffroadCycle.KawasakiCatalogLinks">
+	<summary>
+KawasakiCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OffroadCycle.KTMCatalogLinks">
+	<summary>
+KTMCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OffroadCycle.SuzukiCatalogLinks">
+	<summary>
+SuzukiCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OffroadCycle.YamahaCatalogLinks">
+	<summary>
+YamahaCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.UserControls.PSCatalogLinks.dgCatalogLinks">
+	<summary>
+dgCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite._Default3.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:JEWebsite.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:JEWebsite.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:JEWebsite.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:JEWebsite.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:JEWebsite.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:JEWebsite.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.CheckoutReviewPayForm">
+	<summary>
+CheckoutReviewPayForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.MyList">
+	<summary>
+MyList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblSubTotal">
+	<summary>
+lblSubTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblShipCost">
+	<summary>
+lblShipCost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblDiscount">
+	<summary>
+lblDiscount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblTaxAmount">
+	<summary>
+lblTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblPSTTaxAmount">
+	<summary>
+lblPSTTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblGSTTaxAmount">
+	<summary>
+lblGSTTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblHSTTaxAmount">
+	<summary>
+lblHSTTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblGrandTotal">
+	<summary>
+lblGrandTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblCurrency">
+	<summary>
+lblCurrency control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblBillFirstLastName">
+	<summary>
+lblBillFirstLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblBillAddressLine1And2">
+	<summary>
+lblBillAddressLine1And2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblBillCityState">
+	<summary>
+lblBillCityState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblBillPostalCode">
+	<summary>
+lblBillPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblBillCountryAbbr">
+	<summary>
+lblBillCountryAbbr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblBillPhone">
+	<summary>
+lblBillPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblBillEmail">
+	<summary>
+lblBillEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblShipFirstLastName">
+	<summary>
+lblShipFirstLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblShipAddressLine1And2">
+	<summary>
+lblShipAddressLine1And2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblShipCityState">
+	<summary>
+lblShipCityState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblShipPostalCode">
+	<summary>
+lblShipPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblShipCountryAbbr">
+	<summary>
+lblShipCountryAbbr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblShipPhone">
+	<summary>
+lblShipPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblShipEmail">
+	<summary>
+lblShipEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.lblShipMethodDesc">
+	<summary>
+lblShipMethodDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.pnlDealerPayments">
+	<summary>
+pnlDealerPayments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.chkOpenAccount">
+	<summary>
+chkOpenAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.chkCompanyCheck">
+	<summary>
+chkCompanyCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.CCType">
+	<summary>
+CCType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.rfvCCType">
+	<summary>
+rfvCCType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.CCMonth">
+	<summary>
+CCMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.CCYear">
+	<summary>
+CCYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.rfvCCMonth">
+	<summary>
+rfvCCMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.rflCCYear">
+	<summary>
+rflCCYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.CCName">
+	<summary>
+CCName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.rfvCCName">
+	<summary>
+rfvCCName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.CCNumber">
+	<summary>
+CCNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.rfvCCNumber">
+	<summary>
+rfvCCNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.CCCSCNumber">
+	<summary>
+CCCSCNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.rfvCCCSCNumber">
+	<summary>
+rfvCCCSCNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.ddlSalesPerson">
+	<summary>
+ddlSalesPerson control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.txtComment">
+	<summary>
+txtComment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.btnContinueCheckout">
+	<summary>
+btnContinueCheckout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.CheckoutCode">
+	<summary>
+CheckoutCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.DealerCheckout">
+	<summary>
+DealerCheckout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.MASCustID">
+	<summary>
+MASCustID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.MASCreditLimitUsed">
+	<summary>
+MASCreditLimitUsed control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.MASShipMethKey">
+	<summary>
+MASShipMethKey control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReviewPayment.MASPmtTermsKey">
+	<summary>
+MASPmtTermsKey control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.frmRingSearch">
+	<summary>
+frmRingSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.pnlSearchKits">
+	<summary>
+pnlSearchKits control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.txtRingSetBoreSize">
+	<summary>
+txtRingSetBoreSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.radRingSetUnitIn">
+	<summary>
+radRingSetUnitIn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.radRingSetUnitMM">
+	<summary>
+radRingSetUnitMM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.btnSearchKits">
+	<summary>
+btnSearchKits control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.pnlSearchSingles">
+	<summary>
+pnlSearchSingles control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.txtSingleRingBoreSize">
+	<summary>
+txtSingleRingBoreSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.radSingleRingUnitIn">
+	<summary>
+radSingleRingUnitIn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.radSingleRingUnitMM">
+	<summary>
+radSingleRingUnitMM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.ddlSingleRingType">
+	<summary>
+ddlSingleRingType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.btnSearchSingles">
+	<summary>
+btnSearchSingles control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.pnlRingKitSearch">
+	<summary>
+pnlRingKitSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.repRingKitGrid">
+	<summary>
+repRingKitGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.pnlRingSingleSearch">
+	<summary>
+pnlRingSingleSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.RingSearch.repRingSingleGrid">
+	<summary>
+repRingSingleGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.CheckoutReceiptForm">
+	<summary>
+CheckoutReceiptForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.pnlThanks">
+	<summary>
+pnlThanks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblBillFirstLastName">
+	<summary>
+lblBillFirstLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblBillAddressLine1And2">
+	<summary>
+lblBillAddressLine1And2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblBillCityState">
+	<summary>
+lblBillCityState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblBillPostalCode">
+	<summary>
+lblBillPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblBillCountryAbbr">
+	<summary>
+lblBillCountryAbbr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblBillPhone">
+	<summary>
+lblBillPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblBillEmail">
+	<summary>
+lblBillEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblBillPaymentType">
+	<summary>
+lblBillPaymentType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblShipFirstLastName">
+	<summary>
+lblShipFirstLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblShipAddressLine1And2">
+	<summary>
+lblShipAddressLine1And2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblShipCityState">
+	<summary>
+lblShipCityState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblShipPostalCode">
+	<summary>
+lblShipPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblShipCountryAbbr">
+	<summary>
+lblShipCountryAbbr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblShipPhone">
+	<summary>
+lblShipPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblShipEmail">
+	<summary>
+lblShipEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblShipMethodDesc">
+	<summary>
+lblShipMethodDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.MyList">
+	<summary>
+MyList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblSubTotal">
+	<summary>
+lblSubTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblShipCost">
+	<summary>
+lblShipCost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblDiscount">
+	<summary>
+lblDiscount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblTaxAmount">
+	<summary>
+lblTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblPSTTaxAmount">
+	<summary>
+lblPSTTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblGSTTaxAmount">
+	<summary>
+lblGSTTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblHSTTaxAmount">
+	<summary>
+lblHSTTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.lblGrandTotal">
+	<summary>
+lblGrandTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceipt.CheckoutCode">
+	<summary>
+CheckoutCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyOrders.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyOrders.frmOrderList">
+	<summary>
+frmOrderList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyOrders.DetailsPanel">
+	<summary>
+DetailsPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyOrders.MyList">
+	<summary>
+MyList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.#ctor">
+	<remarks/>
+</member><member name="E:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerInfoCompleted">
+	<remarks/>
+</member><member name="E:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerInfoNewCompleted">
+	<remarks/>
+</member><member name="E:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerAddressesCompleted">
+	<remarks/>
+</member><member name="E:JEWebsite.PMIWSRef.PMIWS.ReturnItemStockAndPricesCompleted">
+	<remarks/>
+</member><member name="E:JEWebsite.PMIWSRef.PMIWS.ReturnJEItemPricingCalcsCompleted">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerInfo(System.String)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerInfoAsync(System.String)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerInfoAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerInfoNew(System.String,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerInfoNewAsync(System.String,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerInfoNewAsync(System.String,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerAddresses(System.String)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerAddressesAsync(System.String)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnERPCustomerAddressesAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnItemStockAndPrices(System.String,System.String[])">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnItemStockAndPricesAsync(System.String,System.String[])">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnItemStockAndPricesAsync(System.String,System.String[],System.Object)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnJEItemPricingCalcs(System.String,System.Data.DataSet)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnJEItemPricingCalcsAsync(System.String,System.Data.DataSet)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.ReturnJEItemPricingCalcsAsync(System.String,System.Data.DataSet,System.Object)">
+	<remarks/>
+</member><member name="M:JEWebsite.PMIWSRef.PMIWS.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.PMIWS">
+	<remarks/>
+</member><member name="P:JEWebsite.PMIWSRef.AuthHeaderVB.Username">
+	<remarks/>
+</member><member name="P:JEWebsite.PMIWSRef.AuthHeaderVB.Password">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.AuthHeaderVB">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.ReturnERPCustomerInfoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:JEWebsite.PMIWSRef.ReturnERPCustomerInfoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.ReturnERPCustomerInfoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.ReturnERPCustomerInfoNewCompletedEventHandler">
+	<remarks/>
+</member><member name="P:JEWebsite.PMIWSRef.ReturnERPCustomerInfoNewCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.ReturnERPCustomerInfoNewCompletedEventArgs">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.ReturnERPCustomerAddressesCompletedEventHandler">
+	<remarks/>
+</member><member name="P:JEWebsite.PMIWSRef.ReturnERPCustomerAddressesCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.ReturnERPCustomerAddressesCompletedEventArgs">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.ReturnItemStockAndPricesCompletedEventHandler">
+	<remarks/>
+</member><member name="P:JEWebsite.PMIWSRef.ReturnItemStockAndPricesCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.ReturnItemStockAndPricesCompletedEventArgs">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.ReturnJEItemPricingCalcsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:JEWebsite.PMIWSRef.ReturnJEItemPricingCalcsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:JEWebsite.PMIWSRef.ReturnJEItemPricingCalcsCompletedEventArgs">
+	<remarks/>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.CheckoutBillShipForm">
+	<summary>
+CheckoutBillShipForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.pnlCustomPO">
+	<summary>
+pnlCustomPO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtPONumber">
+	<summary>
+txtPONumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.pnlBillFavAddr">
+	<summary>
+pnlBillFavAddr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.ddlBillFavAddr">
+	<summary>
+ddlBillFavAddr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtBillFirstName">
+	<summary>
+txtBillFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvBillFirstName">
+	<summary>
+rfvBillFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtBillLastName">
+	<summary>
+txtBillLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvBillLastName">
+	<summary>
+rfvBillLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtBillAddr1">
+	<summary>
+txtBillAddr1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvBillAddr1">
+	<summary>
+rfvBillAddr1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtBillAddr2">
+	<summary>
+txtBillAddr2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtBillCity">
+	<summary>
+txtBillCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvBillCity">
+	<summary>
+rfvBillCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.ddlBillCountryID">
+	<summary>
+ddlBillCountryID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.cmbBillStateProvince">
+	<summary>
+cmbBillStateProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvBillStateProvince">
+	<summary>
+rfvBillStateProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtBillPostalCode">
+	<summary>
+txtBillPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvBillPostalCode">
+	<summary>
+rfvBillPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtBillEmail">
+	<summary>
+txtBillEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvBillEmail">
+	<summary>
+rfvBillEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtBillPhone">
+	<summary>
+txtBillPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvBillPhone">
+	<summary>
+rfvBillPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.chkShipToBilling">
+	<summary>
+chkShipToBilling control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.pnlShipFavAddr">
+	<summary>
+pnlShipFavAddr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.ddlShipFavAddr">
+	<summary>
+ddlShipFavAddr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtShipFirstName">
+	<summary>
+txtShipFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvShipFirstName">
+	<summary>
+rfvShipFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtShipLastName">
+	<summary>
+txtShipLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvShipLastName">
+	<summary>
+rfvShipLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtShipAddr1">
+	<summary>
+txtShipAddr1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvShipAddr1">
+	<summary>
+rfvShipAddr1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtShipAddr2">
+	<summary>
+txtShipAddr2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtShipCity">
+	<summary>
+txtShipCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvShipCity">
+	<summary>
+rfvShipCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.ddlShipCountryID">
+	<summary>
+ddlShipCountryID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.cmbShipStateProvince">
+	<summary>
+cmbShipStateProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvShipStateProvince">
+	<summary>
+rfvShipStateProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtShipPostalCode">
+	<summary>
+txtShipPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvShipPostalCode">
+	<summary>
+rfvShipPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtShipEmail">
+	<summary>
+txtShipEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvShipEmail">
+	<summary>
+rfvShipEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.txtShipPhone">
+	<summary>
+txtShipPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.rfvShipPhone">
+	<summary>
+rfvShipPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.btnContinueCheckout">
+	<summary>
+btnContinueCheckout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.CheckoutCode">
+	<summary>
+CheckoutCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.DealerCheckout">
+	<summary>
+DealerCheckout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.MASCustID">
+	<summary>
+MASCustID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.MASCreditLimitUsed">
+	<summary>
+MASCreditLimitUsed control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.MASShipMethKey">
+	<summary>
+MASShipMethKey control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.MASPmtTermsKey">
+	<summary>
+MASPmtTermsKey control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.TaxExempt">
+	<summary>
+TaxExempt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutBillingShipping.FreeUpgradeShipping">
+	<summary>
+FreeUpgradeShipping control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountPassword.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountPassword.MyAccountPassword">
+	<summary>
+MyAccountPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountPassword.txtUserID">
+	<summary>
+txtUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountPassword.rfvUserName">
+	<summary>
+rfvUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountPassword.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountPassword.rfvPassword">
+	<summary>
+rfvPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountPassword.txtConfirmPW">
+	<summary>
+txtConfirmPW control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountPassword.rfvConfirmPW">
+	<summary>
+rfvConfirmPW control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccountPassword.btnSavePassword">
+	<summary>
+btnSavePassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litDescription">
+	<summary>
+litDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litKeywords">
+	<summary>
+litKeywords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litBanner">
+	<summary>
+litBanner control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcAutoMenu">
+	<summary>
+plcAutoMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litAutoTabStart">
+	<summary>
+litAutoTabStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litAutoTabEnd">
+	<summary>
+litAutoTabEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcSportCompactMenu">
+	<summary>
+plcSportCompactMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportCompactTabStart">
+	<summary>
+litSportCompactTabStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportCompactTabEnd">
+	<summary>
+litSportCompactTabEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcSportCompactEUMenu">
+	<summary>
+plcSportCompactEUMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportCompactEUTabStart">
+	<summary>
+litSportCompactEUTabStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportCompactEUTabEnd">
+	<summary>
+litSportCompactEUTabEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcSportStreetMenu">
+	<summary>
+plcSportStreetMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportStreetTabStart">
+	<summary>
+litSportStreetTabStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportStreetTabEnd">
+	<summary>
+litSportStreetTabEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcSportOffroadMenu">
+	<summary>
+plcSportOffroadMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportOffroadTabStart">
+	<summary>
+litSportOffroadTabStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportOffroadTabEnd">
+	<summary>
+litSportOffroadTabEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcSportATVMenu">
+	<summary>
+plcSportATVMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportATVTabStart">
+	<summary>
+litSportATVTabStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportATVTabEnd">
+	<summary>
+litSportATVTabEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcSportWaterSnowMenu">
+	<summary>
+plcSportWaterSnowMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportWaterSnowTabStart">
+	<summary>
+litSportWaterSnowTabStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportWaterSnowTabEnd">
+	<summary>
+litSportWaterSnowTabEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcSportHarleyMenu">
+	<summary>
+plcSportHarleyMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportHarleyTabStart">
+	<summary>
+litSportHarleyTabStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSportHarleyTabEnd">
+	<summary>
+litSportHarleyTabEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcSRPMenu">
+	<summary>
+plcSRPMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSRPTabStart">
+	<summary>
+litSRPTabStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSRPTabEnd">
+	<summary>
+litSRPTabEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcSRPPROMenu">
+	<summary>
+plcSRPPROMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSRPPROTabStart">
+	<summary>
+litSRPPROTabStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litSRPPROTabEnd">
+	<summary>
+litSRPPROTabEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcPSCatalogList">
+	<summary>
+plcPSCatalogList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.frmPSCatalogSelect">
+	<summary>
+frmPSCatalogSelect control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.imgTabImage">
+	<summary>
+imgTabImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.ddlCatalogList">
+	<summary>
+ddlCatalogList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.plcCatalogLinks">
+	<summary>
+plcCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.dgCatalogLinks">
+	<summary>
+dgCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litGroupName">
+	<summary>
+litGroupName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.litGroupDescription">
+	<summary>
+litGroupDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.lblGridTypeID">
+	<summary>
+lblGridTypeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.imgGroupImage">
+	<summary>
+imgGroupImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.DisplayCatalog.ParentData">
+	<summary>
+ParentData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AboutUs.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AboutUs.Europe">
+	<summary>
+Europe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AboutUs.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.pnlSubmit">
+	<summary>
+pnlSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.frmOrderCustomPistons">
+	<summary>
+frmOrderCustomPistons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtDealerAcctNo">
+	<summary>
+txtDealerAcctNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtBillAcctNo">
+	<summary>
+txtBillAcctNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.rfvBillAcctNo">
+	<summary>
+rfvBillAcctNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtShipAcctNo">
+	<summary>
+txtShipAcctNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtCompanyName">
+	<summary>
+txtCompanyName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.rfvCompanyName">
+	<summary>
+rfvCompanyName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtContactName">
+	<summary>
+txtContactName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.rfvContactName">
+	<summary>
+rfvContactName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtPONumber">
+	<summary>
+txtPONumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtPhoneNo">
+	<summary>
+txtPhoneNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.rfvPhoneNo">
+	<summary>
+rfvPhoneNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtFaxNo">
+	<summary>
+txtFaxNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.rfvEmail">
+	<summary>
+rfvEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.ddlBillTerms">
+	<summary>
+ddlBillTerms control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.rfvBillTerms">
+	<summary>
+rfvBillTerms control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.ddlSalesPerson">
+	<summary>
+ddlSalesPerson control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.rfvSalesPerson">
+	<summary>
+rfvSalesPerson control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtPartNo">
+	<summary>
+txtPartNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.rfvPartNo">
+	<summary>
+rfvPartNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtBoreSize">
+	<summary>
+txtBoreSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.rfvBoreSize">
+	<summary>
+rfvBoreSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtCompDistance">
+	<summary>
+txtCompDistance control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.rfvCompDistance">
+	<summary>
+rfvCompDistance control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.radRingsYes">
+	<summary>
+radRingsYes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.radRingsNo">
+	<summary>
+radRingsNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtRingPartNo">
+	<summary>
+txtRingPartNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.radWristPinsYes">
+	<summary>
+radWristPinsYes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.radWristPinsNo">
+	<summary>
+radWristPinsNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtWristPinPartNo">
+	<summary>
+txtWristPinPartNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtChange1">
+	<summary>
+txtChange1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtChange2">
+	<summary>
+txtChange2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtChange3">
+	<summary>
+txtChange3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtChange4">
+	<summary>
+txtChange4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtChange5">
+	<summary>
+txtChange5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtInstructions">
+	<summary>
+txtInstructions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.radShipDropShip">
+	<summary>
+radShipDropShip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.radShipAccountAddress">
+	<summary>
+radShipAccountAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtShipName">
+	<summary>
+txtShipName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtShipAddress">
+	<summary>
+txtShipAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtShipCity">
+	<summary>
+txtShipCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtShipState">
+	<summary>
+txtShipState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtShipZip">
+	<summary>
+txtShipZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.ddlShipMethod">
+	<summary>
+ddlShipMethod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.txtShipInstructions">
+	<summary>
+txtShipInstructions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.radShipConfirmYes">
+	<summary>
+radShipConfirmYes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.radShipConfirmNo">
+	<summary>
+radShipConfirmNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.ddlShipConfirmType">
+	<summary>
+ddlShipConfirmType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderCustoms.pnlThankYou">
+	<summary>
+pnlThankYou control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.pnlSubmit">
+	<summary>
+pnlSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.frmOrderCustomPistons">
+	<summary>
+frmOrderCustomPistons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtDealerAcctNo">
+	<summary>
+txtDealerAcctNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtBillAcctNo">
+	<summary>
+txtBillAcctNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.rfvBillAcctNo">
+	<summary>
+rfvBillAcctNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtShipAcctNo">
+	<summary>
+txtShipAcctNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtCompanyName">
+	<summary>
+txtCompanyName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.rfvCompanyName">
+	<summary>
+rfvCompanyName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtContactName">
+	<summary>
+txtContactName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.rfvContactName">
+	<summary>
+rfvContactName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPONumber">
+	<summary>
+txtPONumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPhoneNo">
+	<summary>
+txtPhoneNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.rfvPhoneNo">
+	<summary>
+rfvPhoneNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtFaxNo">
+	<summary>
+txtFaxNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.rfvEmail">
+	<summary>
+rfvEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.ddlBillTerms">
+	<summary>
+ddlBillTerms control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.rfvBillTerms">
+	<summary>
+rfvBillTerms control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtQty1">
+	<summary>
+txtQty1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radIndiv1">
+	<summary>
+radIndiv1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radSet1">
+	<summary>
+radSet1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPartNo1">
+	<summary>
+txtPartNo1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtComment1">
+	<summary>
+txtComment1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtQty2">
+	<summary>
+txtQty2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radIndiv2">
+	<summary>
+radIndiv2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radSet2">
+	<summary>
+radSet2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPartNo2">
+	<summary>
+txtPartNo2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtComment2">
+	<summary>
+txtComment2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtQty3">
+	<summary>
+txtQty3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radIndiv3">
+	<summary>
+radIndiv3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radSet3">
+	<summary>
+radSet3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPartNo3">
+	<summary>
+txtPartNo3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtComment3">
+	<summary>
+txtComment3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtQty4">
+	<summary>
+txtQty4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radIndiv4">
+	<summary>
+radIndiv4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radSet4">
+	<summary>
+radSet4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPartNo4">
+	<summary>
+txtPartNo4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtComment4">
+	<summary>
+txtComment4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtQty5">
+	<summary>
+txtQty5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radIndiv5">
+	<summary>
+radIndiv5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radSet5">
+	<summary>
+radSet5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPartNo5">
+	<summary>
+txtPartNo5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtComment5">
+	<summary>
+txtComment5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtQty6">
+	<summary>
+txtQty6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radIndiv6">
+	<summary>
+radIndiv6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radSet6">
+	<summary>
+radSet6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPartNo6">
+	<summary>
+txtPartNo6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtComment6">
+	<summary>
+txtComment6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtQty7">
+	<summary>
+txtQty7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radIndiv7">
+	<summary>
+radIndiv7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radSet7">
+	<summary>
+radSet7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPartNo7">
+	<summary>
+txtPartNo7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtComment7">
+	<summary>
+txtComment7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtQty8">
+	<summary>
+txtQty8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radIndiv8">
+	<summary>
+radIndiv8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radSet8">
+	<summary>
+radSet8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPartNo8">
+	<summary>
+txtPartNo8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtComment8">
+	<summary>
+txtComment8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtQty9">
+	<summary>
+txtQty9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radIndiv9">
+	<summary>
+radIndiv9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radSet9">
+	<summary>
+radSet9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPartNo9">
+	<summary>
+txtPartNo9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtComment9">
+	<summary>
+txtComment9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtQty10">
+	<summary>
+txtQty10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radIndiv10">
+	<summary>
+radIndiv10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radSet10">
+	<summary>
+radSet10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtPartNo10">
+	<summary>
+txtPartNo10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtComment10">
+	<summary>
+txtComment10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radShipDropShip">
+	<summary>
+radShipDropShip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radShipAccountAddress">
+	<summary>
+radShipAccountAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtShipName">
+	<summary>
+txtShipName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtShipAddress">
+	<summary>
+txtShipAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtShipCity">
+	<summary>
+txtShipCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtShipState">
+	<summary>
+txtShipState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtShipZip">
+	<summary>
+txtShipZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.ddlShipMethod">
+	<summary>
+ddlShipMethod control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.txtShipInstructions">
+	<summary>
+txtShipInstructions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radShipConfirmYes">
+	<summary>
+radShipConfirmYes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.radShipConfirmNo">
+	<summary>
+radShipConfirmNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.ddlShipConfirmType">
+	<summary>
+ddlShipConfirmType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.OrderShelfStock.pnlThankYou">
+	<summary>
+pnlThankYou control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AdminCustomerSearch.frmCustomerSearch">
+	<summary>
+frmCustomerSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AdminCustomerSearch.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AdminCustomerSearch.txtERPCustID">
+	<summary>
+txtERPCustID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AdminCustomerSearch.txtWebUserID">
+	<summary>
+txtWebUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AdminCustomerSearch.txtFirstName">
+	<summary>
+txtFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AdminCustomerSearch.txtLastName">
+	<summary>
+txtLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AdminCustomerSearch.txtPhoneNo">
+	<summary>
+txtPhoneNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AdminCustomerSearch.txtPostalCode">
+	<summary>
+txtPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AdminCustomerSearch.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AdminCustomerSearch.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.AdminCustomerSearch.dgFindUsers">
+	<summary>
+dgFindUsers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:JEWebsite.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:JEWebsite.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:JEWebsite.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:JEWebsite._Default2.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.DownloadSpecs.DownloadSpecs2">
+	<summary>
+DownloadSpecs2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite._default.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WaterSnow.KawasakiCatalogLinks">
+	<summary>
+KawasakiCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WaterSnow.SeaDooCatalogLinks">
+	<summary>
+SeaDooCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WaterSnow.YamahaCatalogLinks">
+	<summary>
+YamahaCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.WaterSnow.SkiDooCatalogLinks">
+	<summary>
+SkiDooCatalogLinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.MyAccountDetail">
+	<summary>
+MyAccountDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtBillFirstName">
+	<summary>
+txtBillFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.rfvBillFirstName">
+	<summary>
+rfvBillFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtBillLastName">
+	<summary>
+txtBillLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.rfvBillLastName">
+	<summary>
+rfvBillLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtBillAddr1">
+	<summary>
+txtBillAddr1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.rfvBillAddr1">
+	<summary>
+rfvBillAddr1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtBillAddr2">
+	<summary>
+txtBillAddr2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtBillCity">
+	<summary>
+txtBillCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.rfvBillCity">
+	<summary>
+rfvBillCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.ddlBillCountryID">
+	<summary>
+ddlBillCountryID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.cmbBillStateProvince">
+	<summary>
+cmbBillStateProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.rfvBillStateProvince">
+	<summary>
+rfvBillStateProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtBillPostalCode">
+	<summary>
+txtBillPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.rfvBillPostalCode">
+	<summary>
+rfvBillPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtBillEmail">
+	<summary>
+txtBillEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.rfvBillEmail">
+	<summary>
+rfvBillEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtBillPhone">
+	<summary>
+txtBillPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.rfvBillPhone">
+	<summary>
+rfvBillPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtUserID">
+	<summary>
+txtUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.rfvUserName">
+	<summary>
+rfvUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.rfvPassword">
+	<summary>
+rfvPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtConfirmPW">
+	<summary>
+txtConfirmPW control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.rfvConfirmPW">
+	<summary>
+rfvConfirmPW control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.plcHiddenCustomerInfo">
+	<summary>
+plcHiddenCustomerInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.ddlCompanyID">
+	<summary>
+ddlCompanyID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtERPCustID">
+	<summary>
+txtERPCustID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.btnImportERP">
+	<summary>
+btnImportERP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.txtMASCustID">
+	<summary>
+txtMASCustID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.lblApprovedDealer">
+	<summary>
+lblApprovedDealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.chkApprovedDealer">
+	<summary>
+chkApprovedDealer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyNewAccountDetail.btnCreateAccount">
+	<summary>
+btnCreateAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.CartForm">
+	<summary>
+CartForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.DetailsPanel">
+	<summary>
+DetailsPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.MyList">
+	<summary>
+MyList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.UpdateBtn">
+	<summary>
+UpdateBtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.CheckoutBtn">
+	<summary>
+CheckoutBtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.CheckoutCode">
+	<summary>
+CheckoutCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.pnlCoupons">
+	<summary>
+pnlCoupons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.pnlQuote">
+	<summary>
+pnlQuote control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.lblQuotePartNumber">
+	<summary>
+lblQuotePartNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.lblQuoteUnitPrice">
+	<summary>
+lblQuoteUnitPrice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.lblQuoteSubTotal">
+	<summary>
+lblQuoteSubTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.lblQuoteStockStatus">
+	<summary>
+lblQuoteStockStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ShoppingCart.divQuoteScript">
+	<summary>
+divQuoteScript control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccount.CheckoutMyAccount">
+	<summary>
+CheckoutMyAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccount.lnkSignOut">
+	<summary>
+lnkSignOut control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.MyAccount.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ForgottenPassword.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ForgottenPassword.frmForgottenPW">
+	<summary>
+frmForgottenPW control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ForgottenPassword.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ForgottenPassword.btnEmailPW">
+	<summary>
+btnEmailPW control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.ForgottenPassword.txtEmailValidator">
+	<summary>
+txtEmailValidator control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.MyError">
+	<summary>
+MyError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.CheckoutReceiptForm">
+	<summary>
+CheckoutReceiptForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.pnlThanks">
+	<summary>
+pnlThanks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblBillFirstLastName">
+	<summary>
+lblBillFirstLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblBillAddressLine1And2">
+	<summary>
+lblBillAddressLine1And2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblBillCityState">
+	<summary>
+lblBillCityState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblBillPostalCode">
+	<summary>
+lblBillPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblBillCountryAbbr">
+	<summary>
+lblBillCountryAbbr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblBillPhone">
+	<summary>
+lblBillPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblBillEmail">
+	<summary>
+lblBillEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblBillPaymentType">
+	<summary>
+lblBillPaymentType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblShipFirstLastName">
+	<summary>
+lblShipFirstLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblShipAddressLine1And2">
+	<summary>
+lblShipAddressLine1And2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblShipCityState">
+	<summary>
+lblShipCityState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblShipPostalCode">
+	<summary>
+lblShipPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblShipCountryAbbr">
+	<summary>
+lblShipCountryAbbr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblShipPhone">
+	<summary>
+lblShipPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblShipEmail">
+	<summary>
+lblShipEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblShipMethodDesc">
+	<summary>
+lblShipMethodDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.MyList">
+	<summary>
+MyList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblSubTotal">
+	<summary>
+lblSubTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblShipCost">
+	<summary>
+lblShipCost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblDiscount">
+	<summary>
+lblDiscount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblTaxAmount">
+	<summary>
+lblTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblPSTTaxAmount">
+	<summary>
+lblPSTTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblGSTTaxAmount">
+	<summary>
+lblGSTTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblHSTTaxAmount">
+	<summary>
+lblHSTTaxAmount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.lblGrandTotal">
+	<summary>
+lblGrandTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:JEWebsite.JECustomerSite.WebPages.CheckoutReceiptPrintable.CheckoutCode">
+	<summary>
+CheckoutCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
